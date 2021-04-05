@@ -13,5 +13,5 @@ CREATE TABLE IF NOT EXISTS `comments` (
   `user_id` int(11) NOT NULL,
   `comment` varchar(1000) NOT NULL,
   PRIMARY KEY (`media_id`),
-  UNIQUE KEY (`user_id`),
+  UNIQUE KEY (`user_id`)
 );
